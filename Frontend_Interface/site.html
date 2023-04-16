@@ -5,8 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        Efetuar Cadastro
+    </header>
     
+    <div id="cadastros">
+        <button id="check" onclick="get()">Verificar Cadastros</button>
+    </div>
+
+    <div id="itens">
+        <p>Nome: <label><input type="text" id="nome"></label></p>
+        <p>E-mail: <label><input type="text" id="email"></label></p>
+    </div>
+        
+    <div>
+        <button id="button" onclick="post()">Cadastrar</button>
+    </div>
+    <div id="res"></div>
+    <footer>
+        <p>© Lúcio dos Anjos</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
